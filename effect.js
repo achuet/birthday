@@ -143,8 +143,7 @@ $('document').ready(function(){
 		 vw = $(window).width()/2;
 		
                  audio.pause();
-		var audio2 = $('.song2')[0];
-                audio2.play();
+		
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
@@ -201,6 +200,9 @@ $('document').ready(function(){
 });
 
 
-
+$('#wish_message').click(function(){
+var audio2 = $('.song2')[0];
+                audio2.play();
+}
 
 //alert('hello');
