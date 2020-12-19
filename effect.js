@@ -52,7 +52,13 @@ $('document').ready(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
 	});
-
+        
+	
+	function audpaus() {
+	audio.pause();
+	audio2.play();
+	}
+	
 	function loopOne() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
@@ -200,10 +206,7 @@ $('document').ready(function(){
 	});
 	
 	
-	function audpaus(){
-	audio.pause();
-	audio2.play();
-	}
+	
 	
 	
 });
