@@ -150,7 +150,7 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:140, left: vw-150},500);
+		$('#b11').animate({top:140, left: vw-50},500);
 		$('#b22').animate({top:240, left: vw-250},500);
 		$('#b33').animate({top:240, left: vw-150},500);
 		$('#b44').animate({top:240, left: vw-50},500);
@@ -159,6 +159,7 @@ $('document').ready(function(){
 		$('#b77').animate({top:240, left: vw+250},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
+		$('.balloons img').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
