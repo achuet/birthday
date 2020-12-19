@@ -1101,6 +1101,8 @@ audio {
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
+	width:100px;
+	height:100px;
 }
 
 
