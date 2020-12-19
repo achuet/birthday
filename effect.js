@@ -55,9 +55,9 @@ $('document').ready(function(){
         
 	
 	function audpaus() {
-	    var audio = $('.song')[0];
-            audio.pause();
-	    var audio2 = $('.song2')[1];
+	    var audio1 = $('.song')[0];
+            audio1.pause();
+	    var audio2 = $('.song2')[0];
 	    audio2.play();
 	}
 	
