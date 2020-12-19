@@ -32,7 +32,7 @@ $('document').ready(function(){
 		var audio = $('.song')[0];
         audio.play();
 		var audio2 = $('.song2')[0];
-        audio2.pause();
+        
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
 		$('#bulb_blue').addClass('bulb-glow-blue-after');
@@ -149,7 +149,7 @@ $('document').ready(function(){
 		
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
-		 
+		 audio2.play();
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
