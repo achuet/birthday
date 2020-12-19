@@ -31,6 +31,8 @@ $('document').ready(function(){
 	$('#play').click(function(){
 		var audio = $('.song')[0];
         audio.play();
+		var audio2 = $('.song2')[0];
+                audio2.pause();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
 		$('#bulb_blue').addClass('bulb-glow-blue-after');
@@ -200,9 +202,6 @@ $('document').ready(function(){
 });
 
 
-$('#wish_message').click(function(){
-var audio2 = $('.song2')[0];
-                audio2.play();
-}
+
 
 //alert('hello');
