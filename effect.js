@@ -166,6 +166,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
+		audpaus();
 	});
 	
 	$('#story').click(function(){
@@ -197,6 +198,14 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+	
+	
+	function audpaus(){
+	audio.pause();
+	audio2.play();
+	}
+	
+	
 });
 
 
