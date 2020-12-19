@@ -30,8 +30,8 @@ $('document').ready(function(){
 	});
 	$('#play').click(function(){
 		var audio = $('.song')[0];
-        
-		var audio2 = $('.song2')[1];
+                audio.play();
+		
         
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
@@ -55,8 +55,10 @@ $('document').ready(function(){
         
 	
 	function audpaus() {
-	audio.pause();
-	audio2.play();
+	    var audio = $('.song')[0];
+            audio.pause();
+	    var audio2 = $('.song2')[1];
+	    audio2.play();
 	}
 	
 	function loopOne() {
@@ -149,8 +151,7 @@ $('document').ready(function(){
 		
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
-		 audio2.play();
-
+		 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
