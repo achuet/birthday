@@ -30,8 +30,8 @@ $('document').ready(function(){
 	});
 	$('#play').click(function(){
 		var audio = $('.song')[0];
-        audio.play();
-		var audio2 = $('.song2')[0];
+        
+		var audio2 = $('.song2')[1];
         
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
